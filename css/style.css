@@ -1,0 +1,256 @@
+body {
+  background-color: #fafafa;
+  color: #000305;
+  font-size: 87.5%; /* Base font size is 14px */
+  font-family: Arial, 'Lucida Sans Unicode';
+  line-height: 1.5;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #ef7e21;
+}
+
+a:hover, a:active {
+  background-color: #ef7e21;
+  color: #fff;
+}
+
+.body {
+  margin: 0 auto;
+  width: 70%;
+  clear: both;
+}
+
+.mainHeader img {
+  width: 30%;
+  height: auto;
+  margin: 2% 0;
+}
+
+.mainHeader nav {
+  background-color: #666;
+  height: 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+  float: left;
+  display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+  background-color: #ef7e21;
+  text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.mainContent {
+  line-height: 25px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.postTitle {
+  color: #ef7e21;
+}
+
+.content {
+  width: 70%;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.topContent {
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 3%;
+}
+
+.bottomContent {
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 5%;
+  margin-top: 2%;
+}
+
+.aboutContent {
+  background-color: #fff;
+  width: 90%;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-top: 3%;
+  padding: 3% 5%;
+}
+
+.post-info {
+  font-style: italic;
+  color: #999;
+  font-size: 90%;
+}
+
+.topSidebar {
+  width: 21%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 2% 0 2% 3%;
+  padding: 2% 3%;
+}
+
+.middleSidebar {
+  width: 21%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 0 0 2% 3%;
+  padding: 2% 3%;
+}
+
+.bottomSidebar {
+  width: 21%;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 0 0 2% 3%;
+  padding: 2% 3%;
+}
+
+.mainFooter {
+  width: 100%;
+  height: 40px;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #666;
+  margin: 2% 0;
+}
+
+.mainFooter p {
+  width: 92%;
+  margin: 10px auto;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.topRowContent img, .bottomRowContent img{
+  width: 90%;
+  height: auto;
+  padding: 5%;
+}
+
+/*media queries - for site responsiveness*/
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+
+  .body {
+    width: 90%;
+    font-size: 95%;
+  }
+
+  .mainHeader img {
+    width: 100%;
+  }
+
+  .mainHeader nav {
+    height: 160px;
+  }
+
+  .mainHeader nav ul {
+    padding-left: 0;
+  }
+
+  .mainHeader nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mainHeader nav a:link, .mainHeader nav a:visited {
+    padding: 10px 25px;
+    height: 20px;
+    display: block;
+  }
+
+  .mainContent {
+    line-height: 30px;
+  }
+
+  .postTitle {
+    color: #ef7e21;
+  }
+
+  .content {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+  }
+
+  .post-info {
+    display: none;
+  }
+
+  .topContent {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+  }
+
+  .bottomContent {
+    margin-top: 3%;
+  }
+
+  .topSidebar, .middleSidebar, .bottomSidebar {
+    width: 94%;
+    margin: 2% 0 2% 0;
+    padding: 2% 3%;
+  }
+
+
+}
+
